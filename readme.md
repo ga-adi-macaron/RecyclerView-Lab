@@ -29,8 +29,8 @@ RecyclerView to build an app.
 
 ---
 
-##### Custom View Layouts
-- Create a custom `XML` layouts that replicates the following.
+##### Custom View Layout
+- Create a custom `XML` layout that replicates the following.
 
 <img src="screenshots/screen2.png" height="60px" width="320px"/>
 
