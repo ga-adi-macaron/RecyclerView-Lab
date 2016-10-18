@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">RecyclerViewLab</string>
+    <string-array name="songs">
+        <item>For whom the bell tolls</item>
+        <item>Mahna mahna</item>
+        <item>Whole lotta love</item>
+        <item>Superstitious</item>
+        <item>I want you back</item>
+        <item>Monkey Wrench</item>
+        <item>Knights of Cydonia</item>
+        <item>Flashing red lights mean go</item>
+    </string-array>
+    <string-array name="artists">
+        <item>Metallica</item>
+        <item>Cake</item>
+        <item>Led Zeppelin</item>
+        <item>Stevie Wonder</item>
+        <item>Jackson Five</item>
+        <item>Foo Fighter</item>
+        <item>Muse</item>
+        <item>The Boxer Rebellion</item>
+    </string-array>
+    <integer-array name="albumCovers">
+        <item>@drawable/ridethelightning</item>
+        <item>@drawable/cake</item>
+        <item>@drawable/lz2</item>
+        <item>@drawable/superstevie</item>
+        <item>@drawable/jack5</item>
+        <item>@drawable/colourshape</item>
+        <item>@drawable/blackholes</item>
+        <item>@drawable/boxer</item>
+    </integer-array>
+</resources>
