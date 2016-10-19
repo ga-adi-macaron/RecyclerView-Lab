@@ -33,17 +33,19 @@ public class ColorViewAdapter extends RecyclerView.Adapter<ColorItemViewHolder> 
         holder.mTextView1.setText(colorItem.getText1());
         holder.mTextView2.setText(colorItem.getText2());
         holder.mColorImage.setBackgroundColor(colorItem.getColor());
+
         CompoundButton.OnCheckedChangeListener onCheckedChangeListener = new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 String message = "Item "+ (position+1)+" contain "+colorItem.getText1()+" And "+colorItem.getText2();
                 if (isChecked){
-                    Toast.makeText(buttonView.getContext(), message+" is checked.", Toast.LENGTH_LONG).show();
+                    Toast.makeText(buttonView.getContext(), message+" is checked.", Toast.LENGTH_SHORT).show();
                     mColorItemList.get(position).setChecked(true);
+                    //notifyItemChanged(position);
                 }else{
-
-                    Toast.makeText(buttonView.getContext(), message+" is not checked.", Toast.LENGTH_LONG).show();
+                    Toast.makeText(buttonView.getContext(), message+" is not checked.", Toast.LENGTH_SHORT).show();
                     mColorItemList.get(position).setChecked(false);
+                    //notifyItemChanged(position);
                 }
             }
         };

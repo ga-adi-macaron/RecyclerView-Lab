@@ -29,8 +29,16 @@ public class MainActivity extends AppCompatActivity {
         colorItemList.add(new ColorItem(Color.CYAN,"let you", "down"));
         colorItemList.add(new ColorItem(Color.DKGRAY,"Cloud", "line 2"));
         colorItemList.add(new ColorItem(Color.BLUE,"Water", "Rick and Morty"));
-        colorItemList.add(new ColorItem(Color.YELLOW,"Randomness", "not it"));
+        colorItemList.add(new ColorItem(Color.YELLOW,"Palmer", "rick it"));
+        colorItemList.add(new ColorItem(Color.LTGRAY,"Randomness", "not it"));
+        colorItemList.add(new ColorItem(Color.RED,"String", "line it"));
+        colorItemList.add(new ColorItem(Color.BLUE,"Darkness", "my friend"));
+        colorItemList.add(new ColorItem(Color.BLACK,"Hotel", "Motel"));
+        colorItemList.add(new ColorItem(Color.GREEN,"HELLO", "from the "));
+        colorItemList.add(new ColorItem(Color.MAGENTA,"other side", "I Must"));
+        colorItemList.add(new ColorItem(Color.YELLOW,"have called", "a thousand time"));
 
         mRecyclerView.setAdapter(new ColorViewAdapter(colorItemList));
+
     }
 }
