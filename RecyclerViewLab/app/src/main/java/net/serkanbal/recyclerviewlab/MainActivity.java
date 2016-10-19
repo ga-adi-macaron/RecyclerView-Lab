@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         //This part populates the Recycle List.
         List<CustomObject> customObjects = new ArrayList<>();
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 10; i++) {
             customObjects.add(new CustomObject());
         }
 

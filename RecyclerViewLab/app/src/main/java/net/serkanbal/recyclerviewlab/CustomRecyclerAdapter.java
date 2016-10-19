@@ -46,7 +46,9 @@ public class CustomRecyclerAdapter extends RecyclerView.Adapter<CustomViewHolder
                         } else {
                             obj.setCheckBox(false);
                         }
-                        Toast.makeText(v.getContext(), "Is the Checkbox checked?: " + obj.isCheckBox(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(v.getContext(),
+                                "Is the checkbox at position " + position + " checked? " + obj.isCheckBox(),
+                                Toast.LENGTH_SHORT).show();
                         notifyItemChanged(position);
                         break;
                 }
