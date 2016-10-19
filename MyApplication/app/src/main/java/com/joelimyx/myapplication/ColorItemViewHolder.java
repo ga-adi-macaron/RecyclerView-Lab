@@ -4,6 +4,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 /**
@@ -14,6 +15,7 @@ public class ColorItemViewHolder extends RecyclerView.ViewHolder {
     ImageView mColorImage;
     TextView mTextView1, mTextView2;
     CheckBox mCheckBox;
+    RelativeLayout mRelativeLayout;
 
     public ColorItemViewHolder(View itemView) {
         super(itemView);
@@ -21,5 +23,6 @@ public class ColorItemViewHolder extends RecyclerView.ViewHolder {
         mTextView1= (TextView) itemView.findViewById(R.id.text1);
         mTextView2 = (TextView) itemView.findViewById(R.id.text2);
         mCheckBox = (CheckBox) itemView.findViewById(R.id.checkBox);
+        mRelativeLayout = (RelativeLayout) itemView.findViewById(R.id.relative_layout);
     }
 }
