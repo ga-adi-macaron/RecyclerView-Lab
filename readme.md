@@ -46,6 +46,7 @@ RecyclerView to build an app.
 ##### Custom RecyclerView Adapter
 - Create a custom `RecyclerView Adapter`.
 - The adapter should use the custom `ViewHolder`.
+
 ---
 
 ##### OnClickListener
