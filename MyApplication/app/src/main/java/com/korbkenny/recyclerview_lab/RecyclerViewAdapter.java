@@ -30,6 +30,14 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<CustomViewHolder> 
             public void onClick(View v) {
                 CustomViewHolder myViewHolder = (CustomViewHolder) new holder;
 
+                //
+                //
+                //     THIS IS WHERE I GET SUPER LOST     :(
+                //     NO IDEA WHAT TO DO FROM HERE
+                //
+                //
+
+
 
             }
         };
