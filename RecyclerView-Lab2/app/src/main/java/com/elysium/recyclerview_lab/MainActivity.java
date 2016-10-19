@@ -25,11 +25,11 @@ public class MainActivity extends AppCompatActivity {
         List<CustomObject> customObjectList = new ArrayList<>();
 
         customObjectList.add(new CustomObject());
-        customObjectList.add(new CustomObject("A"));
-        customObjectList.add(new CustomObject("B"));
-        customObjectList.add(new CustomObject("C"));
-        customObjectList.add(new CustomObject("D"));
-        customObjectList.add(new CustomObject("E"));
+        customObjectList.add(new CustomObject("2"));
+        customObjectList.add(new CustomObject("3"));
+        customObjectList.add(new CustomObject("4"));
+        customObjectList.add(new CustomObject("5"));
+        customObjectList.add(new CustomObject("6"));
         }
 
         mRecyclerView.setAdapter(new CustomRecyclerView(customObjectList));

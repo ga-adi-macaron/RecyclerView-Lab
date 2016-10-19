@@ -29,12 +29,16 @@ public class CustomRecyclerView extends RecyclerView.Adapter<CustomViewHolder> {
 
     @Override
     public void onBindViewHolder(CustomViewHolder holder, int position) {
+        for (int i = 0; i < 6; i++) { /** Not sure if a for loop is used here... I'm beginning to think not. */
+            return;
+        }
+        /** */
 
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return 0; /** */
     }
 }
 }
