@@ -69,3 +69,9 @@ A pull request from forked GitHub repo that contains your implementation of the 
 
 ### Additional Resource:
 [Android: RecyclerView](https://developer.android.com/training/material/lists-cards.html)
+
+---
+
+## Licensing
+1. All content is licensed under a CC­BY­NC­SA 4.0 license.
+2. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact [legal@ga.co](mailto:legal@ga.co).
