@@ -33,14 +33,12 @@ public class CustomRecyclerAdapter extends RecyclerView.Adapter<CustomViewHolder
 
     @Override
     public void onBindViewHolder(final CustomViewHolder holder, final int position) {
-        final CustomObject newObject = objects.get(position);
-
         //Set up views
 
-        holder.color.setBackgroundColor(Color.parseColor(newObject.getColor()));
-        holder.title.setText(newObject.getTitle());
-        holder.decription.setText(newObject.getDecription());
-        holder.box.setChecked(newObject.isChecked());
+        holder.color.setBackgroundColor(Color.parseColor(objects.get(position).getColor()));
+        holder.title.setText(objects.get(position).getTitle());
+        holder.decription.setText(objects.get(position).getDecription());
+        holder.box.setChecked(objects.get(position).isChecked());
 
 
         //Define and set up click listener
