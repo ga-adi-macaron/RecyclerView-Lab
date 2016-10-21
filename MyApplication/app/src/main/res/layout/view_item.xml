@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/theSquare"
+        android:layout_margin="10dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp" 
+        android:background="#ccff22"/>
+    
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        
+        <TextView
+            android:id="@+id/TitleText"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Title text"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/DescriptText"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Description text"
+            android:layout_below="@id/TitleText"/>
+        
+    </RelativeLayout>
+
+    <CheckBox
+        android:layout_margin="10dp"
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Checkbox has been clicked"/>
+
+
+
+
+</LinearLayout>
